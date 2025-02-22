@@ -100,6 +100,38 @@ nav{
 
     }
 
+    .usability{
+        /* background: green; */
+        padding: 10.7% 10.7% 0 10.7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* gap: 12px; */
+        /* position: relative; */
+    }
+        .steps{
+            margin-top: 32px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;        
+        }
+        .step{
+            max-width: 259px;
+            background: #fff;
+            padding: 22px;
+            border-radius: 22px;
+            filter: drop-shadow(2px 2px 8px #15151533);
+        }
+        .step h3{
+            margin-bottom: 22px;    
+        }
+
+        .usability img{
+            transform: translateX(-25px);
+            margin-top: 32px;
+        }
+
+
 @media (min-width: 375px){
     body{
         display: flex;
